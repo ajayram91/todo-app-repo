@@ -1,8 +1,8 @@
 pipeline {
     agent { label "master" }
     environment {
-        ECR_REGISTRY = "046402772087.dkr.ecr.us-east-1.amazonaws.com"
-        APP_REPO_NAME= "kumbwi/todo-app-repo"
+        ECR_REGISTRY = "188358726447.dkr.ecr.us-east-1.amazonaws.com/ajay-repo/to-do-app-repo"
+        APP_REPO_NAME= "ajay-repo/to-do-app-repo"
     }
     stages {
         stage('Build Docker Image') {
