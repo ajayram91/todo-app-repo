@@ -1,7 +1,7 @@
 pipeline {
     agent { label "master" }
     environment {
-        ECR_REGISTRY = "188358726447.dkr.ecr.us-east-1.amazonaws.com/ajay-repo/to-do-app-repo"
+        ECR_REGISTRY = "188358726447.dkr.ecr.us-east-1.amazonaws.com/"
         APP_REPO_NAME= "ajay-repo/to-do-app-repo"
     }
     stages {
